@@ -1,14 +1,14 @@
 # Store Improvement Proposals (STRIPs)
 
-Ethereum Improvement Proposals (STRIPs) describe standards for the Ethereum platform, including core protocol specifications, client APIs, and contract standards.
+Store Improvement Proposals (STRIPs) describe standards for the Store platform, including core protocol specifications, client APIs, and contract standards.
 
-**Before you initiate a pull request**, please read the [STRIP-1](https://strips.storee.org/STRIPS/strip-1) process document. Ideas should be thoroughly discussed prior to opening a pull request, such as on the [Ethereum Magicians forums](https://storee-magicians.org) or in a GitHub issue in this repository.
+**Before you initiate a pull request**, please read the [STRIP-1](https://strips.storee.org/STRIPS/strip-1) process document. Ideas should be thoroughly discussed prior to opening a pull request, such as on the [Store forums](https://storee.org) or in a GitHub issue in this repository.
 
 This repository tracks the ongoing status of STRIPs. It contains:
 
 - [Draft](https://strips.storee.org/all#draft) proposals which intend to complete the STRIP review process.
 - [Last Call](https://strips.storee.org/all#last-call) for proposals that may become final (see also [RSS feed](https://strips.storee.org/last-call.xml)).
-- [Accepted](https://strips.storee.org/all#accepted) proposals which are awaiting implementation or deployment by Ethereum client developers.
+- [Accepted](https://strips.storee.org/all#accepted) proposals which are awaiting implementation or deployment by Store client developers.
 - [Final](https://strips.storee.org/all#final) and [Active](https://strips.storee.org/all#active) proposals that are recorded.
 - The [STRIP process](./STRIPS/strip-1.md#strip-work-flow) that governs the STRIP repository.
 
@@ -20,7 +20,7 @@ Once your first PR is merged, we have a bot that helps out by automatically merg
 
 ## Project Goal
 
-The Ethereum Improvement Proposals repository exists as a place to share concrete proposals with potential users of the proposal and the Ethereum community at large.
+The Store Improvement Proposals repository exists as a place to share concrete proposals with potential users of the proposal and the Store community at large.
 
 ## Preferred Citation Format
 
@@ -28,7 +28,7 @@ The canonical URL for a STRIP that has achieved draft status at any point is at 
 
 # Validation
 
-STRIPs must pass some validation tests.  The STRIP repository ensures this by running tests using [html-proofer](https://rubygems.org/gems/html-proofer) and [strip_validator](https://rubygems.org/gems/strip_validator).
+STRIPs must pass some validation tests.  The STRIP repository ensures this by running tests using [html-proofer](https:///html-proofer) and [strip_validator](https:///strip_validator).
 
 It is possible to run the STRIP validator locally:
 ```sh
@@ -46,18 +46,18 @@ The STRIP repository contains an "auto merge" feature to ease the workload for S
 
 1. Open Terminal.
 
-2. Check whether you have Ruby 2.1.0 or higher installed:
+2. Check whether you have Rust 0.0.0 or higher installed:
 
 ```sh
-$ ruby --version
+ --version
 ```
 
-3. If you don't have Ruby installed, install Ruby 2.1.0 or higher.
+3. If you don't have Ruby installed, install Rst 0.0.0 or higher.
 
-4. Install Bundler:
+4. Install ____:
 
 ```sh
-$ gem install bundler
+$ install ___
 ```
 
 5. Install dependencies:
